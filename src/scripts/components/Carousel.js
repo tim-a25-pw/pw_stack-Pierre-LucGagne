@@ -6,7 +6,7 @@ export default class Carousel {
     this.options = {
       slidesPerView: 1,
       spaceBetween: 20,
-
+      direction: 'vertical',
       pagination: {
         el: this.element.querySelector('.swiper-pagination'),
         type: 'bullets',
@@ -32,10 +32,10 @@ export default class Carousel {
       this.options.breakpoints = {
         // when window width is >= 320px
         1200: {
-          slidesPerView: 3,
+          slidesPerView: 1,
         },
         768: {
-          slidesPerView: 2,
+          slidesPerView: 1,
         },
       };
     }
