@@ -1,12 +1,37 @@
 .footer {
     background-color: var(--color-black);
-    gap: 30px;
+
     .logo {
         display: flex;
         justify-content: center;
         color: var(--color-white);
+        padding: 25px 0;
     }
     hr {
+        opacity: 0.2;
+    }
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: var(--color-grey);
+    padding-bottom: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    ul {
+        padding: 0;
+        display: flex;
+        gap: 16px;
+    }
+    li {
+        padding: 6px;
+    }
+    svg {
+        background-color: var(--color-black);
         opacity: 0.2;
     }
 }
